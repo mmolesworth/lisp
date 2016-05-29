@@ -1,0 +1,16 @@
+;;;; quicksort example as found on page 165 of ANSI Common Lisp
+(defun quicksort (vec l r)
+  (let ((i l)
+	(j r)
+	(p (svref vec (round (+ l r) 2))))
+    (while (<= i j)
+      (while (< (svref vec i) p) (incf i))
+      (while (> (svref vec j) p) (decf j))
+      (when (<= i j)
+	(rotatef (svref vec i) (svref vec j))
+	(incf i)
+	(decf j)))
+    (if (> (- j l) 1) (quicksort vec l j))
+    (if (> (- r i) 1) (quicksort vec i j)))
+  vec)
+
