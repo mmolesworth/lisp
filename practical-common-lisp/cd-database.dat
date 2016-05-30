@@ -1,0 +1,2 @@
+
+((:TITLE "Cd #2" :ARTIST "Amy" :RATING 5 :RIPPED T) (:TITLE "CD #1" :ARTIST "Mr. Mark" :RATING 4 :RIPPED NIL) (:TITLE "Home" :ARTIST "Dixie Chicks" :RATING 9 :RIPPED T) (:TITLE "Fly" :ARTIST "Dixie Chicks" :RATING 8 :RIPPED T) (:TITLE "Roses" :ARTIST "Kathy Mattea" :RATING 7 :RIPPED T) (:TITLE "Pet Sounds" :ARTIST "Beach Boys" :RATING 10 :RIPPED NIL)) 

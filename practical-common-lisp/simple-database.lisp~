@@ -1,0 +1,7 @@
+;;;; the simple database example as shown in Chapter 3 of Practical Common Lisp
+
+(defun make-cd (title artist rating ripped)
+  (list :title title :artist artist :rating rating :ripped ripped))
+
+(defvar *db* nil)
+
